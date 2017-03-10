@@ -43,7 +43,7 @@ public class SunshinePreferences {
             "1600 Amphitheatre Parkway, Mountain View, CA 94043";
 
     /**
-     * Helper method to handle setting location details in Preferences (City Name, Latitude,
+     * Helper method to onClick setting location details in Preferences (City Name, Latitude,
      * Longitude)
      *
      * @param c        Context used to get the SharedPreferences
@@ -56,7 +56,7 @@ public class SunshinePreferences {
     }
 
     /**
-     * Helper method to handle setting a new location in preferences.  When this happens
+     * Helper method to onClick setting a new location in preferences.  When this happens
      * the database may need to be cleared.
      *
      * @param c               Context used to get the SharedPreferences
