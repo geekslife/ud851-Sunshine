@@ -20,14 +20,8 @@
       xmlns:tools="http://schemas.android.com/tools"
       tools:context=".MainActivity">
     <item
-        android:id="@+id/action_refresh"
+        android:id="@+id/action_share"
         android:orderInCategory="1"
-        android:title="@string/action_refresh"
+        android:title="@string/action_share"
         app:showAsAction="ifRoom"/>
-    <!--DONE (1) Add a menu item to open the map-->
-    <item
-        android:id="@+id/open_map"
-        android:orderInCategory="2"
-        android:title="Open Map"
-        app:showAsAction="ifRoom"></item>
 </menu>
